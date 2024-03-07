@@ -2749,3 +2749,543 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.03.07-15.36.53:346][129]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/BLAQ/Levels/SeeSomething_LevelInstance_b425fd88c925b624_0) is flushing async loading
 [2024.03.07-15.36.53:353][129]LogLevelInstance: Loaded 2 levels in 0,143 seconds
 [2024.03.07-15.36.53:375][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.07-15.40.41:485][668]LogWorld: UWorld::CleanupWorld for SUB_Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-15.40.41:485][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-15.40.41:510][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.07-15.40.41:528][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.03.07-15.40.41:529][668]MapCheck: New page: Map Check
+[2024.03.07-15.40.41:529][668]LightingResults: New page: Lighting Build
+[2024.03.07-15.40.41:545][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.07-15.40.41:545][668]LogLevelInstance: Unloaded 1 levels in 0,068 seconds
+[2024.03.07-15.40.41:549][668]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/BLAQ/Levels/SUB_Arcade) is flushing async loading
+[2024.03.07-15.40.41:550][668]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 0 (Found bundle for host: 0x63c83960840 [serially])
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 6 (Closing connection)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 9 (  Trying 54.162.16.194:443...)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.162.16.194) port 443)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 25 (Server certificate:)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 26 ( subject: CN=*.ol.epicgames.com)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 27 ( start date: Feb 28 00:00:00 2023 GMT)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 28 ( expire date: Mar 27 23:59:59 2024 GMT)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "*.ol.epicgames.com")
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M02)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 34 (Closing connection)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: 0000063D0391C300: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.07-15.40.55:629][653]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.07-15.41.45:880][ 48]Cmd: TRANSACTION UNDO
+[2024.03.07-15.41.45:881][ 48]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.45.05:244][592]Cmd: DELETE
+[2024.03.07-15.45.05:244][592]Cmd: ACTOR DELETE
+[2024.03.07-15.45.05:244][592]LogEditorActor: Cannot delete component StaticMeshComponent /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2024.03.07-15.46.28:354][ 17]Cmd: DELETE
+[2024.03.07-15.46.28:354][ 17]Cmd: ACTOR DELETE
+[2024.03.07-15.46.28:361][ 17]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-15.46.28:371][ 17]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-15.46.28:373][ 17]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-15.46.28:379][ 17]LogEditorActor: Deleted Actor: Blockout_Box_C
+[2024.03.07-15.46.28:410][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.03.07-15.46.28:415][ 17]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2024.03.07-15.46.42:620][897]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /BlockoutToolsPlugin/Blueprints/Blockout_Box.Blockout_Box_C
+[2024.03.07-15.46.42:620][897]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /BlockoutToolsPlugin/Blueprints/Blockout_Box.Blockout_Box_C
+[2024.03.07-15.46.42:623][897]LogActorFactory: Actor Factory spawned Blueprint /BlockoutToolsPlugin/Blueprints/Blockout_Box.Blockout_Box as actor: Blockout_Box_C /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Box_C_14
+[2024.03.07-15.46.42:624][897]LogActorFactory: Actor Factory spawned Blueprint /BlockoutToolsPlugin/Blueprints/Blockout_Box.Blockout_Box as actor: Blockout_Box_C /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Box_C_14
+[2024.03.07-15.46.55:248][857]LogPhysics: Warning: Scale for /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Box_C_14.NODE_AddStaticMeshComponent-0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.500 Z=1.000
+[2024.03.07-15.46.55:248][857]LogPhysics: Warning: Scale for /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Box_C_14.NODE_AddStaticMeshComponent-0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.500 Z=1.000
+[2024.03.07-15.46.55:248][857]LogPhysics: Warning: Scale for /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Box_C_14.NODE_AddStaticMeshComponent-0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.500 Z=1.000
+[2024.03.07-15.47.16:903][511]LogHttp: Warning: 0000063D03770500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 0 (Found bundle for host: 0x63c83960990 [serially])
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 7 (Closing connection)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 9 (Send failure: Connection was reset)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 12 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: 0000063D03770500: libcurl info message cache 13 (Closing connection)
+[2024.03.07-15.47.16:904][511]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.07-15.47.38:587][ 73]Cmd: TRANSACTION UNDO
+[2024.03.07-15.47.38:587][ 73]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.47.55:256][239]LogHttp: Warning: 0000063D0A07C300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.03.07-15.47.55:256][239]LogHttp: Warning: 0000063D0A07C300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.03.07-15.47.55:256][239]LogHttp: Warning: 0000063D0A07C300: libcurl info message cache 1 (Closing connection)
+[2024.03.07-15.47.55:256][239]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.07-15.48.07:385][234]Cmd: DELETE
+[2024.03.07-15.48.07:385][234]Cmd: ACTOR DELETE
+[2024.03.07-15.48.07:391][234]LogEditorActor: Deleted Actor: Blockout_Box_C
+[2024.03.07-15.48.07:433][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.07-15.48.07:439][234]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2024.03.07-15.48.13:933][750]Cmd: TRANSACTION UNDO
+[2024.03.07-15.48.13:933][750]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.07-15.48.14:814][786]Cmd: TRANSACTION UNDO
+[2024.03.07-15.48.14:814][786]LogEditorTransaction: Undo Delete Elements
+[2024.03.07-15.49.06:289][653]LogHttp: Warning: 0000063D088DEB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.03.07-15.49.06:289][653]LogHttp: Warning: 0000063D088DEB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.03.07-15.49.06:289][653]LogHttp: Warning: 0000063D088DEB00: libcurl info message cache 1 (Closing connection)
+[2024.03.07-15.49.06:289][653]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.07-15.49.15:327][366]Cmd: TRANSACTION UNDO
+[2024.03.07-15.49.15:327][366]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.49.16:109][402]Cmd: TRANSACTION UNDO
+[2024.03.07-15.49.16:109][402]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.49.19:339][613]Cmd: TRANSACTION UNDO
+[2024.03.07-15.49.19:339][613]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.49.43:770][538]Cmd: TRANSACTION UNDO
+[2024.03.07-15.49.43:770][538]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.49.47:047][756]Cmd: TRANSACTION UNDO
+[2024.03.07-15.49.47:047][756]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.07-15.53.18:380][147]Cmd: DELETE
+[2024.03.07-15.53.18:380][147]Cmd: ACTOR DELETE
+[2024.03.07-15.53.18:385][147]LogEditorActor: Deleted Actor: BP_Arcade_C
+[2024.03.07-15.53.18:413][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.07-15.53.18:419][147]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2024.03.07-15.53.19:711][264]Cmd: DELETE
+[2024.03.07-15.53.19:711][264]Cmd: ACTOR DELETE
+[2024.03.07-15.53.19:717][264]LogEditorActor: Deleted Actor: BP_Arcade_C
+[2024.03.07-15.53.19:733][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.03.07-15.53.19:735][264]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2024.03.07-15.53.20:529][334]Cmd: DELETE
+[2024.03.07-15.53.20:529][334]Cmd: ACTOR DELETE
+[2024.03.07-15.53.20:535][334]LogEditorActor: Actor SM_Arcade-154 is referenced by GroupActor3.
+[2024.03.07-15.53.21:600][334]LogSlate: Window 'Message' being destroyed
+[2024.03.07-15.53.21:607][334]Message dialog closed, result: No, title: Message, text: Actor SM_Arcade-154 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+GroupActor3
+[2024.03.07-15.53.21:607][334]LogEditorActor: Actor SM_Arcade-152 is referenced by GroupActor3.
+[2024.03.07-15.53.22:790][334]LogSlate: Window 'Message' being destroyed
+[2024.03.07-15.53.22:797][334]Message dialog closed, result: No, title: Message, text: Actor SM_Arcade-152 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+GroupActor3
+[2024.03.07-15.53.22:797][334]LogEditorActor: Actor SM_Arcade-151 is referenced by GroupActor3.
+[2024.03.07-15.53.24:864][334]LogSlate: Window 'Message' being destroyed
+[2024.03.07-15.53.24:872][334]Message dialog closed, result: NoAll, title: Message, text: Actor SM_Arcade-151 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+GroupActor3
+[2024.03.07-15.53.24:884][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.03.07-15.53.24:887][334]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2024.03.07-15.53.24:927][335]LogAutomationController: Ignoring very large delta of 4.40 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.07-15.53.28:965][704]Cmd: DELETE
+[2024.03.07-15.53.28:965][704]Cmd: ACTOR DELETE
+[2024.03.07-15.53.28:971][704]LogEditorActor: Deleted Actor: BP_Arcade_C
+[2024.03.07-15.53.28:987][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.07-15.53.28:991][704]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2024.03.07-15.53.29:986][792]Cmd: DELETE
+[2024.03.07-15.53.29:986][792]Cmd: ACTOR DELETE
+[2024.03.07-15.53.29:991][792]LogEditorActor: Deleted Actor: BP_Arcade_C
+[2024.03.07-15.53.30:007][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.03.07-15.53.30:009][792]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.03.07-15.54.18:808][949]Cmd: DELETE
+[2024.03.07-15.54.18:808][949]Cmd: ACTOR DELETE
+[2024.03.07-15.54.18:813][949]LogEditorActor: Deleted Actor: BP_Arcade_C
+[2024.03.07-15.54.18:814][949]LogEditorActor: Deleted Actor: BP_Arcade_C
+[2024.03.07-15.54.18:815][949]LogEditorActor: Deleted Actor: BP_Arcade_C
+[2024.03.07-15.54.18:815][949]LogEditorActor: Deleted Actor: BP_Arcade_C
+[2024.03.07-15.54.18:832][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.07-15.54.18:837][949]LogEditorActor: Deleted 4 Actors (0.029 secs)
+[2024.03.07-15.54.44:290][  8]Cmd: TRANSACTION UNDO
+[2024.03.07-15.54.44:290][  8]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.55.09:750][829]Cmd: TRANSACTION UNDO
+[2024.03.07-15.55.09:750][829]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.56.48:679][627]Cmd: TRANSACTION UNDO
+[2024.03.07-15.56.48:679][627]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.58.53:500][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.03.07-15.58.53:553][747]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BLAQ/Levels/SUB_Arcade_Auto4
+[2024.03.07-15.58.53:553][747]LogSavePackage: Moving '../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Saved/SUB_Arcade_Auto490F655C940818646BE1CC3A591FF2446.tmp' to '../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Saved/Autosaves/Game/BLAQ/Levels/SUB_Arcade_Auto4.umap'
+[2024.03.07-15.58.53:555][747]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Saved/Autosaves/Game/BLAQ/Levels/SUB_Arcade_Auto4.umap is in the /Temp path, will not scan.
+[2024.03.07-15.58.53:555][747]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/BLAQ/Levels/SUB_Arcade_Auto4 is in the /Temp path, will not scan.
+[2024.03.07-15.58.53:555][747]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/BLAQ/Levels/SUB_Arcade_Auto4 is in the /Temp path, will not scan.
+[2024.03.07-15.58.53:555][747]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Devs/Luca/Levels/DEV-Level' took 0.074
+[2024.03.07-15.58.53:555][747]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.074
+[2024.03.07-15.59.35:195][485]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /BlockoutToolsPlugin/Blueprints/Blockout_Tube.Blockout_Tube_C
+[2024.03.07-15.59.35:195][485]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /BlockoutToolsPlugin/Blueprints/Blockout_Tube.Blockout_Tube_C
+[2024.03.07-15.59.35:218][485]LogActorFactory: Actor Factory spawned Blueprint /BlockoutToolsPlugin/Blueprints/Blockout_Tube.Blockout_Tube as actor: Blockout_Tube_C /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Tube_C_0
+[2024.03.07-15.59.35:239][485]LogActorFactory: Actor Factory spawned Blueprint /BlockoutToolsPlugin/Blueprints/Blockout_Tube.Blockout_Tube as actor: Blockout_Tube_C /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Tube_C_0
+[2024.03.07-15.59.35:962][528]LogShaderCompilers: Display: ================================================
+[2024.03.07-15.59.35:962][528]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.07-15.59.35:962][528]LogShaderCompilers: Display: Total job queries 33, among them cache hits 4 (12.12%)
+[2024.03.07-15.59.35:962][528]LogShaderCompilers: Display: Tracking 28 distinct input hashes that result in 23 distinct outputs (82.14%)
+[2024.03.07-15.59.35:962][528]LogShaderCompilers: Display: RAM used: 645,01 KiB of 1,60 GiB budget. Usage: 0.04%
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Shaders Compiled: 28
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Jobs assigned 29, completed 28 (96.55%)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Average time worker was idle: 678.75 s
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Time job spent in pending queue: average 0.24 s, longest 1.53 s
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Job execution time: average 1.02 s, max 1.86 s
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Job life time (pending + execution): average 1.26 s, max 2.97
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Shader code size: average 37,502 KiB, min 29,613 KiB, max 50,906 KiB
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.00 s
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Jobs were issued in 29 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Average processing rate: 4.67 jobs/sec
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Total thread time: 16,75 s
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Total thread preprocess time: 1,23 s
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Percentage time preprocessing: 7.34%
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Effective parallelization: 2.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    2 times, average 1.12 sec, max 1.12 sec, min 1.11 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.78 sec, max 1.75 sec, min 0.30 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                               FNiagaraShader (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.53 sec, max 0.88 sec, min 0.33 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.50 sec, max 0.88 sec, min 0.28 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 41.64% of total time (compiled    9 times, average 0.78 sec, max 1.75 sec, min 0.30 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.76% of total time (compiled    6 times, average 0.50 sec, max 0.88 sec, min 0.28 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.96% of total time (compiled    5 times, average 0.53 sec, max 0.88 sec, min 0.33 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                           FLumenCardPS<true> - 13.32% of total time (compiled    2 times, average 1.12 sec, max 1.12 sec, min 1.11 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.92% of total time (compiled    5 times, average 0.23 sec, max 0.27 sec, min 0.18 sec)
+[2024.03.07-15.59.35:963][528]LogShaderCompilers: Display: ================================================
+[2024.03.07-15.59.53:816][856]Cmd: TRANSACTION UNDO
+[2024.03.07-15.59.53:816][856]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.07-15.59.54:681][890]Cmd: TRANSACTION UNDO
+[2024.03.07-15.59.54:681][890]LogEditorTransaction: Undo Move Elements
+[2024.03.07-15.59.55:119][914]Cmd: TRANSACTION UNDO
+[2024.03.07-15.59.55:119][914]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.07-15.59.55:738][946]Cmd: TRANSACTION UNDO
+[2024.03.07-15.59.55:738][946]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.07-16.00.08:662][646]Cmd: DELETE
+[2024.03.07-16.00.08:662][646]Cmd: ACTOR DELETE
+[2024.03.07-16.00.08:673][646]LogEditorActor: Deleted Actor: Blockout_Tube_C
+[2024.03.07-16.00.08:700][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.03.07-16.00.08:704][646]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2024.03.07-16.00.15:052][824]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /BlockoutToolsPlugin/Blueprints/Blockout_Cylinder.Blockout_Cylinder_C
+[2024.03.07-16.00.15:052][824]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /BlockoutToolsPlugin/Blueprints/Blockout_Cylinder.Blockout_Cylinder_C
+[2024.03.07-16.00.15:055][824]LogActorFactory: Actor Factory spawned Blueprint /BlockoutToolsPlugin/Blueprints/Blockout_Cylinder.Blockout_Cylinder as actor: Blockout_Cylinder_C /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Cylinder_C_0
+[2024.03.07-16.00.15:055][824]LogActorFactory: Actor Factory spawned Blueprint /BlockoutToolsPlugin/Blueprints/Blockout_Cylinder.Blockout_Cylinder as actor: Blockout_Cylinder_C /Game/BLAQ/Levels/SUB_Arcade.SUB_Arcade:PersistentLevel.Blockout_Cylinder_C_0
+[2024.03.07-16.03.53:613][408]LogSlate: Window 'Save changes?' being destroyed
+[2024.03.07-16.03.53:619][408]Message dialog closed, result: Yes, title: Save changes?, text: Unsaved Level changes will get discarded. Do you want to save them now?
+[2024.03.07-16.03.53:649][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.03.07-16.03.53:658][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.07-16.03.53:692][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.07-16.03.53:754][408]LogSavePackage: Moving output files for package: /Game/BLAQ/Levels/SUB_Arcade
+[2024.03.07-16.03.53:755][408]LogSavePackage: Moving '../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Saved/SUB_Arcade7C8F6D204FDCD1F4CF606792B0675109.tmp' to '../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Content/BLAQ/Levels/SUB_Arcade.umap'
+[2024.03.07-16.03.53:763][408]LogFileHelpers: Saving map 'SUB_Arcade' took 0.085
+[2024.03.07-16.03.53:771][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 2.57 sec)
+[2024.03.07-16.03.53:811][408]LogWorld: UWorld::CleanupWorld for SUB_Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.03.53:811][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.03.53:832][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.07-16.03.53:850][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.07-16.03.53:852][408]MapCheck: New page: Map Check
+[2024.03.07-16.03.53:852][408]LightingResults: New page: Lighting Build
+[2024.03.07-16.03.53:869][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.07-16.03.53:888][408]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/BLAQ/Levels/SUB_Arcade_LevelInstance_3db543b9d43360e5_0) is flushing async loading
+[2024.03.07-16.03.53:888][408]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-16.03.53:985][408]LogLevelInstance: Loaded 1 levels in 0,097 seconds
+[2024.03.07-16.03.54:018][408]AssetCheck: New page: Asset Save: SUB_Arcade
+[2024.03.07-16.04.31:703][545]LogAutomationController: Ignoring very large delta of 5.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.07-16.05.22:448][409]LogAutomationController: Ignoring very large delta of 8.30 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 0 (Found bundle for host: 0x63c83960c90 [serially])
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 7 (Closing connection)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 9 (Send failure: Connection was reset)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 12 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: 0000063CEFA40500: libcurl info message cache 13 (Closing connection)
+[2024.03.07-16.11.28:540][567]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.07-16.12.06:547][681]LogHttp: Warning: 0000063CEFA4EB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.03.07-16.12.06:547][681]LogHttp: Warning: 0000063CEFA4EB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.03.07-16.12.06:547][681]LogHttp: Warning: 0000063CEFA4EB00: libcurl info message cache 1 (Closing connection)
+[2024.03.07-16.12.06:547][681]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.07-16.13.06:556][861]LogHttp: Warning: 0000063CEFA4A500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.03.07-16.13.06:556][861]LogHttp: Warning: 0000063CEFA4A500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.03.07-16.13.06:556][861]LogHttp: Warning: 0000063CEFA4A500: libcurl info message cache 1 (Closing connection)
+[2024.03.07-16.13.06:556][861]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C914C1E-4B56-7878-2462-26A7E8DA04E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f60e875844c83a84ddc056ab22298fa5%7C304cdbf9ec824bc4b63c505f210a18ff%7C223b0b3a-ef62-4fa0-bd4f-8bae504678b0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.07-16.13.48:153][ 70]LogSlate: Window 'Levels' being destroyed
+[2024.03.07-16.13.48:181][ 70]LogSlate: Window 'Levels' being destroyed
+[2024.03.07-16.21.03:285][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.03.07-16.21.03:292][324]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Devs/Luca/Levels/Arcade.Arcade
+[2024.03.07-16.21.03:292][324]Cmd: MAP LOAD FILE="../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Content/Devs/Luca/Levels/Arcade.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.07-16.21.03:292][324]LightingResults: New page: Lighting Build
+[2024.03.07-16.21.03:292][324]LoadErrors: New page: Loading map: Arcade.umap
+[2024.03.07-16.21.03:344][324]LogWorld: UWorld::CleanupWorld for DEV-Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.21.03:345][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.21.03:345][324]LogWorld: UWorld::CleanupWorld for SeeSomething, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.21.03:345][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.21.03:345][324]LogWorld: UWorld::CleanupWorld for SUB_Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.21.03:345][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.21.03:346][324]MapCheck: New page: Map Check
+[2024.03.07-16.21.03:346][324]LightingResults: New page: Lighting Build
+[2024.03.07-16.21.03:361][324]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.07-16.21.03:367][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.07-16.21.03:369][324]LogWorld: UWorld::CleanupWorld for DEV-Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.21.03:370][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.21.03:370][324]LogWorld: UWorld::CleanupWorld for Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.21.03:370][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.21.03:370][324]LogWorld: UWorld::CleanupWorld for Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.21.03:370][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.21.03:388][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.03.07-16.21.03:403][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.07-16.21.03:408][324]LogAudio: Display: Audio Device (ID: 1) registered with world 'Arcade'.
+[2024.03.07-16.21.03:408][324]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-16.21.03:408][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.07-16.21.03:408][324]LogAIModule: Creating AISystem for world Arcade
+[2024.03.07-16.21.03:427][324]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.07-16.21.03:448][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.03.07-16.21.03:454][324]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.07-16.21.03:454][324]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,127ms to complete.
+[2024.03.07-16.21.03:460][324]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/BLAQ/Levels/SUB_Arcade_LevelInstance_f0d48be54bc45c4a_0) is flushing async loading
+[2024.03.07-16.21.03:460][324]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-16.21.03:566][324]LogLevelInstance: Loaded 1 levels in 0,106 seconds
+[2024.03.07-16.21.03:583][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.07-16.21.51:675][163]LogDerivedDataCache: C:/Users/KinderimRiegel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.108 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2407 files in 3560 folders with total size 163 MiB.
+[2024.03.07-16.21.57:066][549]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Devs/Luca/Levels/SUB_Arcade) is flushing async loading
+[2024.03.07-16.21.57:066][549]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-16.21.57:181][549]LogSlate: Window 'Open Level' being destroyed
+[2024.03.07-16.22.09:307][397]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Devs/Luca/Levels/SUB_Ceiling) is flushing async loading
+[2024.03.07-16.22.09:307][397]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-16.22.09:329][397]LogSlate: Window 'Open Level' being destroyed
+[2024.03.07-16.22.21:249][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.03.07-16.22.22:697][266]LogSlate: Window 'Save Content' being destroyed
+[2024.03.07-16.23.32:266][789]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Devs/Luca/Levels/SeeSomething) is flushing async loading
+[2024.03.07-16.23.32:266][789]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-16.23.32:285][789]LogSlate: Window 'Open Level' being destroyed
+[2024.03.07-16.24.01:268][151]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.07-16.24.01:489][157]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-16.24.01:542][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-16.24.01:617][160]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-16.24.05:598][365]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Devs/Luca/Levels/Arcade.Arcade:PersistentLevel.Arcade
+[2024.03.07-16.24.05:599][365]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-16.24.05:599][365]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.07-16.27.05:412][132]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.07-16.27.05:413][132]LogPlayLevel: [PlayLevel] Compiling Arcade before play...
+[2024.03.07-16.27.05:441][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.07-16.27.05:442][132]LogPlayLevel: PlayLevel: Blueprint regeneration took 30 ms (1 blueprints)
+[2024.03.07-16.27.05:442][132]PIE: New page: SIE session: Arcade (07.03.2024, 18:27:05)
+[2024.03.07-16.27.05:449][132]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.03.07-16.27.05:450][132]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.03.07-16.27.05:450][132]LogPlayLevel: Creating play world package: /Game/Devs/Luca/Levels/UEDPIE_0_Arcade
+[2024.03.07-16.27.05:451][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001821s)
+[2024.03.07-16.27.05:451][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Devs/Luca/Levels/Arcade.Arcade to /Game/Devs/Luca/Levels/UEDPIE_0_Arcade.Arcade (0.001865s)
+[2024.03.07-16.27.05:464][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.03.07-16.27.05:465][132]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-16.27.05:465][132]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.07-16.27.05:466][132]LogAIModule: Creating AISystem for world Arcade
+[2024.03.07-16.27.05:466][132]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2024.03.07-16.27.05:466][132]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.07-16.27.05:466][132]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.07-16.27.05:466][132]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.07-16.27.05:466][132]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.07-16.27.05:466][132]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.07-16.27.05:466][132]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.07-16.27.05:466][132]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.07-16.27.05:467][132]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.07-16.27.05:467][132]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.07-16.27.05:467][132]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.07-16.27.05:467][132]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.07-16.27.05:467][132]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.07-16.27.05:469][132]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.07-16.27.05:488][132]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Razer Barracuda X 2.4)
+[2024.03.07-16.27.05:488][132]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.07-16.27.05:488][132]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.07-16.27.05:488][132]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.07-16.27.05:489][132]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.03.07-16.27.05:489][132]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.03.07-16.27.05:490][132]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.03.07-16.27.05:490][132]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.03.07-16.27.05:490][132]LogInit: FAudioDevice initialized with ID 9.
+[2024.03.07-16.27.05:490][132]LogAudio: Display: Audio Device (ID: 9) registered with world 'Arcade'.
+[2024.03.07-16.27.05:490][132]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.07-16.27.05:496][132]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.07-16.27.05:496][132]LogWorld: Bringing World /Game/Devs/Luca/Levels/UEDPIE_0_Arcade.Arcade up for play (max tick rate 0) at 2024.03.07-17.27.05
+[2024.03.07-16.27.05:496][132]LogWorld: Bringing up level for play took: 0.000399
+[2024.03.07-16.27.05:498][132]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.03.07-16.27.05:499][132]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.03.07-16.27.05:499][132]LogLevelInstance: Loaded 1 levels in 0 seconds
+[2024.03.07-16.27.05:500][132]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-16.27.05:569][132]LogAssetRegistry: Warning: GetFirstPackageByName('SUB_Arcade') is returning '/Game/BLAQ/Levels/SUB_Arcade', but it also found '/Game/Devs/Luca/Levels/SUB_Arcade'.
+[2024.03.07-16.27.05:574][132]PIE: Server logged in
+[2024.03.07-16.27.05:574][132]PIE: Play in editor total start time 0,163 seconds.
+[2024.03.07-16.27.08:157][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.07-16.27.08:157][439]LogWorld: BeginTearingDown for /Game/Devs/Luca/Levels/UEDPIE_0_Arcade
+[2024.03.07-16.27.08:159][439]LogWorld: UWorld::CleanupWorld for Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.27.08:159][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.27.08:163][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.07-16.27.08:168][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.27.08:182][439]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.07-16.27.08:184][439]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.07-16.27.08:184][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.07-16.27.08:186][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.07-16.27.08:190][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.07-16.27.08:194][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.03.07-16.27.08:224][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.03.07-16.27.08:263][445]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.03.07-16.27.11:360][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.07-16.27.11:360][816]PIE: New page: SIE session: Arcade (07.03.2024, 18:27:11)
+[2024.03.07-16.27.11:360][816]LogPlayLevel: Creating play world package: /Game/Devs/Luca/Levels/UEDPIE_0_Arcade
+[2024.03.07-16.27.11:361][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001237s)
+[2024.03.07-16.27.11:361][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Devs/Luca/Levels/Arcade.Arcade to /Game/Devs/Luca/Levels/UEDPIE_0_Arcade.Arcade (0.001271s)
+[2024.03.07-16.27.11:376][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.07-16.27.11:377][816]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-16.27.11:377][816]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.07-16.27.11:378][816]LogAIModule: Creating AISystem for world Arcade
+[2024.03.07-16.27.11:378][816]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2024.03.07-16.27.11:378][816]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.07-16.27.11:378][816]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.07-16.27.11:378][816]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.07-16.27.11:378][816]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.07-16.27.11:378][816]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.07-16.27.11:378][816]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.07-16.27.11:378][816]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.07-16.27.11:378][816]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.07-16.27.11:378][816]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.07-16.27.11:379][816]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.07-16.27.11:379][816]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.07-16.27.11:379][816]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.07-16.27.11:381][816]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.07-16.27.11:397][816]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Razer Barracuda X 2.4)
+[2024.03.07-16.27.11:397][816]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.07-16.27.11:397][816]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.07-16.27.11:397][816]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.07-16.27.11:398][816]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.03.07-16.27.11:398][816]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.03.07-16.27.11:399][816]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.07-16.27.11:399][816]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.03.07-16.27.11:399][816]LogInit: FAudioDevice initialized with ID 10.
+[2024.03.07-16.27.11:399][816]LogAudio: Display: Audio Device (ID: 10) registered with world 'Arcade'.
+[2024.03.07-16.27.11:399][816]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.07-16.27.11:403][816]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.07-16.27.11:404][816]LogWorld: Bringing World /Game/Devs/Luca/Levels/UEDPIE_0_Arcade.Arcade up for play (max tick rate 0) at 2024.03.07-17.27.11
+[2024.03.07-16.27.11:404][816]LogWorld: Bringing up level for play took: 0.000441
+[2024.03.07-16.27.11:407][816]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.03.07-16.27.11:407][816]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.03.07-16.27.11:408][816]LogLevelInstance: Loaded 1 levels in 0 seconds
+[2024.03.07-16.27.11:408][816]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-16.27.11:476][816]LogAssetRegistry: Warning: GetFirstPackageByName('SUB_Arcade') is returning '/Game/BLAQ/Levels/SUB_Arcade', but it also found '/Game/Devs/Luca/Levels/SUB_Arcade'.
+[2024.03.07-16.27.11:480][816]PIE: Server logged in
+[2024.03.07-16.27.11:481][816]PIE: Play in editor total start time 0,122 seconds.
+[2024.03.07-16.27.14:083][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.07-16.27.14:083][127]LogWorld: BeginTearingDown for /Game/Devs/Luca/Levels/UEDPIE_0_Arcade
+[2024.03.07-16.27.14:084][127]LogWorld: UWorld::CleanupWorld for Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.27.14:084][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.27.14:088][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.07-16.27.14:092][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.27.14:104][127]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.07-16.27.14:106][127]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.07-16.27.14:106][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.07-16.27.14:108][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.07-16.27.14:112][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.07-16.27.14:116][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.03.07-16.27.14:144][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.03.07-16.27.14:184][133]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.03.07-16.27.58:556][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.07-16.27.58:556][428]PIE: New page: PIE session: Arcade (07.03.2024, 18:27:58)
+[2024.03.07-16.27.58:560][428]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.03.07-16.27.58:560][428]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.03.07-16.27.58:560][428]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.03.07-16.27.58:561][428]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.03.07-16.27.58:567][429]LogPlayLevel: Creating play world package: /Game/Devs/Luca/Levels/UEDPIE_0_Arcade
+[2024.03.07-16.27.58:569][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001380s)
+[2024.03.07-16.27.58:569][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Devs/Luca/Levels/Arcade.Arcade to /Game/Devs/Luca/Levels/UEDPIE_0_Arcade.Arcade (0.001419s)
+[2024.03.07-16.27.58:583][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.03.07-16.27.58:584][429]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.07-16.27.58:584][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.07-16.27.58:585][429]LogAIModule: Creating AISystem for world Arcade
+[2024.03.07-16.27.58:585][429]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2024.03.07-16.27.58:585][429]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.03.07-16.27.58:585][429]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.07-16.27.58:585][429]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.07-16.27.58:585][429]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.07-16.27.58:585][429]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.07-16.27.58:585][429]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.07-16.27.58:585][429]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.07-16.27.58:585][429]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.07-16.27.58:585][429]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.07-16.27.58:586][429]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.07-16.27.58:586][429]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.07-16.27.58:586][429]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.07-16.27.58:588][429]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.07-16.27.58:603][429]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Razer Barracuda X 2.4)
+[2024.03.07-16.27.58:604][429]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.07-16.27.58:604][429]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.07-16.27.58:604][429]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.07-16.27.58:604][429]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.03.07-16.27.58:604][429]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.03.07-16.27.58:607][429]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.03.07-16.27.58:607][429]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.03.07-16.27.58:607][429]LogInit: FAudioDevice initialized with ID 11.
+[2024.03.07-16.27.58:607][429]LogAudio: Display: Audio Device (ID: 11) registered with world 'Arcade'.
+[2024.03.07-16.27.58:607][429]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.07-16.27.58:630][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.07-16.27.58:631][429]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.07-16.27.58:631][429]LogWorld: Bringing World /Game/Devs/Luca/Levels/UEDPIE_0_Arcade.Arcade up for play (max tick rate 0) at 2024.03.07-17.27.58
+[2024.03.07-16.27.58:631][429]LogWorld: Bringing up level for play took: 0.000382
+[2024.03.07-16.27.58:632][429]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.03.07-16.27.58:633][429]LogLevelInstance: Loaded 1 levels in 0 seconds
+[2024.03.07-16.27.58:634][429]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.07-16.27.58:706][429]LogAssetRegistry: Warning: GetFirstPackageByName('SUB_Arcade') is returning '/Game/BLAQ/Levels/SUB_Arcade', but it also found '/Game/Devs/Luca/Levels/SUB_Arcade'.
+[2024.03.07-16.27.58:710][429]PIE: Server logged in
+[2024.03.07-16.27.58:711][429]PIE: Play in editor total start time 0,155 seconds.
+[2024.03.07-16.27.58:721][429]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.03.07-16.28.00:032][434]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/BLAQ/Levels/UEDPIE_0_SUB_Arcade_LevelInstance_3 took (less than) 145.69 ms
+[2024.03.07-16.28.01:147][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.07-16.28.01:147][455]LogWorld: BeginTearingDown for /Game/Devs/Luca/Levels/UEDPIE_0_Arcade
+[2024.03.07-16.28.01:147][455]LogSlate: Window 'connection_lost Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.07-16.28.01:173][455]LogWorld: UWorld::CleanupWorld for Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-16.28.01:173][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.28.01:176][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.07-16.28.01:182][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-16.28.01:201][455]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.07-16.28.01:201][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.07-16.28.01:203][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.07-16.28.01:217][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.07-16.28.01:234][456]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.03.07-16.28.01:250][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.07-16.31.11:569][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.07-16.31.11:579][942]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Devs/Luca/Levels/Arcade_Auto5
+[2024.03.07-16.31.11:579][942]LogSavePackage: Moving '../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Saved/Arcade_Auto5FAB1CEEB43CB48E8A1D6E2822D75DF1A.tmp' to '../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Saved/Autosaves/Game/Devs/Luca/Levels/Arcade_Auto5.umap'
+[2024.03.07-16.31.11:581][942]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Saved/Autosaves/Game/Devs/Luca/Levels/Arcade_Auto5.umap is in the /Temp path, will not scan.
+[2024.03.07-16.31.11:581][942]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Devs/Luca/Levels/Arcade_Auto5 is in the /Temp path, will not scan.
+[2024.03.07-16.31.11:581][942]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Devs/Luca/Levels/Arcade_Auto5 is in the /Temp path, will not scan.
+[2024.03.07-16.31.11:582][942]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Devs/Luca/Levels/Arcade' took 0.030
+[2024.03.07-16.31.11:582][942]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.030
+[2024.03.07-16.33.55:821][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.07-16.33.55:914][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2024.03.07-16.33.55:924][ 40]LogSavePackage: Moving output files for package: /Game/Devs/Luca/Levels/Arcade
+[2024.03.07-16.33.55:925][ 40]LogSavePackage: Moving '../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Saved/ArcadeCC78010740C97FCB286C1F81A8F617D9.tmp' to '../../../../../../Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Content/Devs/Luca/Levels/Arcade.umap'
+[2024.03.07-16.33.55:934][ 40]LogFileHelpers: Saving map 'Arcade' took 0.064
+[2024.03.07-16.33.55:950][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 2.70 sec)
+[2024.03.07-16.33.55:952][ 40]AssetCheck: New page: Asset Save: Arcade
+[2024.03.07-16.33.55:952][ 40]LogContentValidation: Display: Validating /Script/Engine.World /Game/Devs/Luca/Levels/Arcade.Arcade
