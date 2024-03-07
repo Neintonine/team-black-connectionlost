@@ -4,17 +4,7 @@
 		{
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
-			"files": [
-				"D:/Blender/Projekte/Arcade/GitClone/team-black-connectionlost/Content/BLAQ/Assets/ArcadeMachine/SM_Arcade-2.uasset",
-				"D:/Blender/Projekte/Arcade/GitClone/team-black-connectionlost/Content/BLAQ/Assets/Arcade-Machine/SM_Arcade-2.uasset",
-				"D:/Blender/Projekte/Arcade/GitClone/team-black-connectionlost/Content/BLAQ/Assets/Desk-Lamp/SM_deskLamp_01_a.uasset",
-				"D:/Blender/Projekte/Arcade/GitClone/team-black-connectionlost/Content/BLAQ/Assets/Monitor/SM_monitor_01_a.uasset",
-				"D:/Blender/Projekte/Arcade/GitClone/team-black-connectionlost/Content/BLAQ/Levels/Arcade.umap",
-				"D:/Blender/Projekte/Arcade/GitClone/team-black-connectionlost/Content/BLAQ/Levels/SeeSomething.umap",
-				"D:/Blender/Projekte/Arcade/GitClone/team-black-connectionlost/Content/BLAQ/Levels/MAP_Arcade.umap",
-				"D:/Blender/Projekte/Arcade/GitClone/team-black-connectionlost/Content/BLAQ/Levels/Sub_Arcade.umap",
-				"E:/Unreal/connection_lost/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-			]
+			"files": []
 		}
 	]
 }
