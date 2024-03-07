@@ -4,7 +4,12 @@
 		{
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
-			"files": []
+			"files": [
+				"C:/Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Content/BLAQ/Levels/SUB_Arcade.umap",
+				"C:/Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Content/BLAQ/Assets/Door/BP_Door.uasset",
+				"C:/Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Content/BLAQ/Levels/DEV-Level.umap",
+				"C:/Users/KinderimRiegel/Documents/GitHub/team-black-connectionlost/Content/BLAQ/Assets/Door/SM_Door.uasset"
+			]
 		}
 	]
 }
